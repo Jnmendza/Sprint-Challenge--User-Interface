@@ -165,7 +165,11 @@ p {
 .box10{
     background-color: dodgerblue; 
 }
+/* END OF BOX CSS */
 
+
+
+/* BOTTOM CONTENT */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -199,9 +203,25 @@ footer nav a {
     text-decoration: none;
 }
 
-/* ABOUT CSS */
+/* ABOUT PAGE CSS */
 
 .aboutText {
     margin: 20px 0 20px 20px;
-    
+    border-bottom: 1px dashed black;
+}
+
+/* INFO BOXES CSS */
+
+.imgBoxes{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.infoBoxes{
+    width:47%;
+}
+.infoBoxes h2{
+    font-size: 20px;
+    margin-top:10px;
+    border-bottom: 1px dashed black;
 }
