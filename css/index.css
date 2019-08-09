@@ -70,6 +70,16 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* TOP NAV CSS */
+.topNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topNav a {
+	color: gray;
+	text-decoration: none;
+}
 
 .top-content {
     display: flex;
