@@ -219,9 +219,24 @@ footer nav a {
 
 .infoBoxes{
     width:47%;
+    margin: 10px 0 10px 0;
+    border-bottom: 1px dashed black;
 }
 .infoBoxes h2{
     font-size: 20px;
     margin-top:10px;
-    border-bottom: 1px dashed black;
+    
+}
+
+.infoBoxes button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px 0 10px 0;
+}
+
+.bottomText{
+    margin: 20px 0 20px 20px;
+    
 }
