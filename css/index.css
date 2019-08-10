@@ -70,12 +70,26 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* TOP NAV CSS */
 
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 0 30px 0;
+}
+
+.topNav a {
+	color: gray;
+    text-decoration: none;
+    padding-top:25px;
+}
+
+/* TOP CONTENT */
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -104,7 +118,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +125,76 @@ p {
     justify-content: center;
 }
 
+/* BOX COLOR CSS */
+.box1{
+    background-color: teal;
+}
+
+.box2{
+    background-color: gold;   
+}
+
+.box3{
+    background-color: cadetblue; 
+}
+
+.box4{
+    background-color: coral; 
+}
+
+.box5{
+    background-color: crimson; 
+}
+
+.box6{
+    background-color: forestgreen; 
+}
+
+.box7{
+    background-color: darkorchid; 
+}
+
+.box8{
+    background-color: hotpink; 
+}
+
+.box9{
+    background-color: indigo; 
+}
+
+.box10{
+    background-color: dodgerblue; 
+}
+
+.box:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+/* END OF BOX CSS */
+
+
+
+/* BOTTOM CONTENT */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +226,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT PAGE CSS */
+
+.aboutText {
+    border-bottom: 1px dashed black;
+}
+
+.aboutContainer{
+    margin: 20px 0 20px 20px;
+}
+
+/* INFO BOXES CSS */
+
+.imgBoxes{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+.infoBoxes{
+    width:47%;
+    margin: 10px 0px 10px 0;
+    border-bottom: 1px dashed black;
+}
+.infoBoxes h2{
+    font-size: 20px;
+    margin:20px 0px 20px 0;
+    
+}
+
+.infoBoxes button{
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px 0 20px 0;
+    font-size: 13px;
+}
+
+.bottomText{
+    margin: 20px 0 30px 20px;
+    
 }
